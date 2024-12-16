@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - MITO App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 400px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .profile-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .profile-options a {
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .profile-options a:hover {
+            background-color: #555;
+        }
+        .back-link {
+            margin-top: 20px;
+        }
+        .back-link a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile</h1>
+        <div class="profile-options">
+            <a href="#change-password">Change Password</a>
+            <a href="#login-logs">Login Logs</a>
+            <a href="#log-out">Log Out</a>
+            <a href="#change-time-zone">Change Time Zone</a>
+        </div>
+        <div class="back-link">
+            <a href="index.html">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
